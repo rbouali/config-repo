@@ -1,0 +1,5 @@
+spring.jpa.hibernate.ddl-auto: "create-drop"
+spring.jpa.show-sql: "false"
+spring.datasource.url: "jdbc:mysql://localhost:3306/db_anomalie_prod"
+spring.datasource.username: "root"
+spring.datasource.password: "root"
