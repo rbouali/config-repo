@@ -1,0 +1,4 @@
+execution.mode: "production"
+eureka.client.registerWithEureka: "false"
+eureka.client.fetchRegistry: "false"
+eureka.server.waitTimeInMsWhenSync: "5"
