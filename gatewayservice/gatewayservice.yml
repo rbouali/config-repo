@@ -8,6 +8,6 @@ eureka:
   serviceUrl:
     defaultZone: http://localhost:8761/eureka/
 zuul:
-  prefix: /api
+  prefix: "/api"
   routes:
-    stockservice: /stock/**
+    stockservice: "/stock/**"
