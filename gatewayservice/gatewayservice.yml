@@ -11,6 +11,4 @@ zuul:
   ignored-services: '*'
   prefix: /api
   routes:
-    facturationservice: /facturation/**
     stockservice: /stock/**
-    anomalieservice: /anomalie/**
