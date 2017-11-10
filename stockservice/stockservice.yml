@@ -1,8 +1,12 @@
 execution.mode: "default"
-eureka.instance.preferIpAddress: "true"
-eureka.client.registerWithEureka: "true"
-eureka.client.fetchRegistry: "true"
-eureka.client.serviceUrl.defaultZone: "http://localhost:8761/eureka/"
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 spring.jpa.hibernate.ddl-auto: "create"
 spring.jpa.show-sql: "true"
 spring.datasource.url: "jdbc:mysql://localhost:3306/db_facturation"
