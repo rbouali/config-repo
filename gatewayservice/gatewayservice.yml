@@ -13,5 +13,5 @@ zuul:
   routes:
     stockservice:
       path: /stock/**
-      serviceId: STOCKSERVICE
+      service-id: STOCKSERVICE
       strip-prefix: false
