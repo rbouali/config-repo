@@ -1,12 +1,12 @@
 execution.mode: "default"
 zuul:
-  ignored-services: '*'
-  prefix: /api
-  routes:
-    stockservice:
-      path: /stock/**
-      service-id: stockservice
-      strip-prefix: false
+ ignored-services: '*'
+ prefix: /api
+ routes:
+  stockservice:
+   path: /stock/**
+    service-id: stockservice
+    strip-prefix: false
 eureka:
  instance:
   preferIpAddress: true
