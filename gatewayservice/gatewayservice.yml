@@ -1,5 +1,6 @@
 execution.mode: "default"
 zuul.ignored-services: "*"
+zuul.strip-prefix: true
 zuul.prefix:  /api
 zuul.routes.stockservice: /stock/**
 eureka:
