@@ -1,4 +1,5 @@
 execution.mode: "default"
+management.security.enabled: false
 eureka:
  instance:
   preferIpAddress: true
