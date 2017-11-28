@@ -1,4 +1,4 @@
-execution.mode: "development"
+execution.mode: "development "
 eureka:
  instance:
   preferIpAddress: true
