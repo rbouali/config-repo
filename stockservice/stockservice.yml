@@ -1,4 +1,4 @@
-execution.mode: "default "
+execution.mode: "default"
 eureka:
   instance:
     preferIpAddress: true
