@@ -7,6 +7,7 @@ zuul:
    path: /stock/**
    service-id: stockservice
    strip-prefix: false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 eureka:
  instance:
   preferIpAddress: true
